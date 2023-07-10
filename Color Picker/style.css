@@ -1,9 +1,31 @@
 .main-box{
     background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 900px;
 }
 
 html{
     margin: 0;
+}
+
+.headDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#resetBtn{
+    height: 25px;
+    align-self: center;
+    margin: 20px;
+    background-color: white;
+}
+
+.resetBtnImg{
+    width: 22px;
 }
 
 .btn-container{
@@ -16,6 +38,7 @@ html{
     position: absolute;
     text-align: center;
 }
+
 .box{
     border: 1px solid black;
     width: 100px;
