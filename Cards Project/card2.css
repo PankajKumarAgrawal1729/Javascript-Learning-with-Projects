@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card img{
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.plan{
+    background-color: rgb(152, 194, 232);
+    width: 80%;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plandetail{
+    display: flex;
+    gap: 20px;
+}
+
+.plandetail img{
+    background-color: white;
+    width: 30px;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.change a{
+    font-size: 20px;
+}
+
+.payment{
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(35, 35, 124);
+    font-size: medium;
+    box-shadow: 10px 5px 3px white;
+}
+
+.cancel{
+    border: none;
+    background-color: white;
+}
+
+.cancel a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
