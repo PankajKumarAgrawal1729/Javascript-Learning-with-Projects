@@ -39,7 +39,7 @@ calculateBtn.addEventListener("click", () => {
 
   let bmiRatio = weight / (height * height);
 
-  result.textContent = "Your BMI Ratio = " + bmiRatio;
+  result.textContent = "Your BMI Ratio = " + bmiRatio.toFixed(2);
   calculationDiv.classList.add("result");
   guideDiv.classList.add("response");
   inputs.forEach((input) => {
