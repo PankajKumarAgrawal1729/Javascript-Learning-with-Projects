@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Generator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div class="main-container">
+        <div class="bmi">
+            <div id="calculation">
+                <h2>BMI Calculator</h2>
+                <div>
+                    <label for="height">Height in CM:</label>
+                    <input type="text" class="myInput" id="height" autocomplete="off"> 
+                    <p class="warning"><sup>*</sup>Please enter a number</p>
+                </div>
+                <div>
+                    <label for="weight">Weight in KG:</label>
+                    <input type="text" class="myInput" id="weight" autocomplete="off">
+                    <p class="warning"><sup>*</sup>Please enter a number</p>
+                </div>
+                <button id="calculate" type="submit" disabled>Calculate</button>
+            </div>
+            <div id="guide">
+                <p id="result"></p>
+                <h2>BMI Weight Guide</h2>
+                <p>Under Weight = Less than 18.6</p>
+                <p>Normal Range = 18.6 and 24.9</p>
+                <p>Overweight = Greater than 24.9</p>
+                <button id="calculateAgain" type="submit">Calculate Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
