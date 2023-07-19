@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "digital-7";
+  src: url("digital-7 (italic).ttf");
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "digital-7", sans-serif;
+}
+
+#clock {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 5px solid white;
+  padding: 10px;
+}
+
+#time {
+  padding: 10px;
+  font-size: 100px;
+  color: white;
+}
+
+#ampm {
+  font-size: 40px;
+  color: white;
+}
