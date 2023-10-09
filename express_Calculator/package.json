@@ -1,0 +1,15 @@
+{
+  "name": "express_calculator",
+  "version": "1.0.0",
+  "description": "\"This is a calculator based on node express js\"",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}

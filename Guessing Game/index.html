@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess and Win</title>
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+    <div class="main-container">
+        <div class="game-container">
+            <form id="game">
+                <div class="navbar">
+                    <h1>Number guessing game</h1>
+                    <p>Try and guess a random number between 1 and 100</p>
+                    <p>You have 10 attempts to guess the right number.</p>
+                </div>
+                <div>
+                    <h1>Guess a number</h1>
+                    <input id="number" type="text" autocomplete="off" />
+                    <button id="submitBtn" type="submit">Submit guess</button>
+                </div>
+            </form>
+            <div class="currentSituation">
+                <p>Previous Guesses: <span id="prevguess"></span></p>
+                <p>Guesses Remaining: <span id="remaining">10</span></p>
+            </div>
+            <div>
+                <p id="result"></p>
+            </div>
+        </div>
+        </div>
+       
+    <script src="script.js"></script>
+</body>
+
+</html>
