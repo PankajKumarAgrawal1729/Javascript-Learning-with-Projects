@@ -40,11 +40,13 @@ a{
 
 .blog_main{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+    justify-content: center;
 }
 
-@media(min-width:935px){
+/* @media(min-width:935px){
     .blog_main{
         grid-template-columns: repeat(2, 1fr); 
     }
@@ -60,7 +62,7 @@ a{
     .blog_main{
         grid-template-columns: repeat(4, 1fr); 
     }
-}
+} */
 
 
 .blog_card{
